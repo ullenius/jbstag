@@ -1,7 +1,8 @@
 # jbstag : Java GBS Tagger
 <img src="jbstag.png" alt="Java GBS Tagger in action" align="right">
 
-[jbstag](https://github.com/ullenius/jbstag) is a tagger for GBS-files made in Java (Swing). Multi-platform.
+[jbstag](https://github.com/ullenius/jbstag) is a tagger for GBS-files made in Java (Swing).
+
 Reads and edits tags from Game Boy music files (GBS).
 
 
@@ -26,16 +27,16 @@ Or run the build-script provided:
 
 
 ## Binaries
-I've included a compiled and executable jar-file with /lib dir to simplify for end-users who can't compile stuff on their platform.
+I've included a executable jar-file to simplify for end-users who can't compile stuff on their platform.
 
-* Download [jbstag.zip](url)
+* Download [jbstag.zip](https://github.com/ullenius/jbstag/blob/master/jbstag-binaries.zip)
 
 ## Issues
 There might be some issues on your platform with the UTF-8 fonts not rendering properly. This is a Swing issue.
 
 
 ## Development
-This is mostly a fork of [gbstag](https://www.github.com/ullenius/gbstag) with write-support added.
+This is mostly a fork of [gbstag](https://github.com/ullenius/gbstag) with write-support added.
 The GUI was made using Netbeans 8.2 Swing editor. The `.form`-file is included in the repo.
 
 ## Changelog
@@ -45,4 +46,4 @@ The GUI was made using Netbeans 8.2 Swing editor. The `.form`-file is included i
 GPL 3 only. See COPYING
 
 ### Credits
-The image used in the program is made by [Tahsin Tahil](https://tahsintahil.tumblr.com/) and licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
+The [Gameboy icon](https://www.iconfinder.com/icons/381627/gameboy_icon) used in the program is made by [Tahsin Tahil](https://tahsintahil.tumblr.com/) and licensed under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
