@@ -274,7 +274,7 @@ public class Gui extends javax.swing.JFrame {
                 writer.writeTitle();
                 writer.writeAuthor();
                 writer.writeCopyright();
-		} catch (IOException ex) {
+		} catch (IOException | IllegalArgumentException ex) {
 			showErrorMessageBox("Unable to write to file: " + ex.getMessage());
 		}
 	}
