@@ -263,7 +263,6 @@ public class Gui extends javax.swing.JFrame {
 	}
 	
 	private void updateTagsFromFields() {
-                tag = new GbsTag();
 		tag.setTitle(titleField.getText());
 		tag.setAuthor(composerField.getText());
 		tag.setCopyright(copyrightField.getText());
